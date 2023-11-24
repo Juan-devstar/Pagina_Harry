@@ -1,0 +1,270 @@
+:root{
+    --verde: hsl(135, 71%, 41%);
+    --negro: rgb(0, 0, 0);
+    --blanco: rgb(255, 255, 255)
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #333;
+}
+
+header{
+    background-color: #333;
+}
+
+main{
+    height: 2000px;
+    width: auto;
+    background-color: #333;
+}
+
+.Tx_uno{
+    font-size: 100px;
+    padding-top: 30px;
+    padding-left: 40px;
+    color: var(--verde);
+}
+
+.Tx_dos{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+    color: #ffffff;
+}
+
+nav{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 80px;
+    background-color: var(--negro);
+}
+
+.Navbar{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.Navbar1{
+    gap: 50px;
+    padding-left: 20px;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#Uno{
+    position: relative;
+    bottom: 70px;
+    left: 1300px;
+}
+
+#Dos{
+    position: relative;
+    bottom: 65px;
+    left: 1160px;
+}
+
+.Seleccion{
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 700px;
+    top: 30px;
+}
+
+.Primera{
+    width: 1000px;
+    position: relative;
+    top: 100px;
+}
+
+#Primera1{
+    padding-left: 70px;
+    padding-top: 70px;
+    display: grid;
+    background-color: #333;
+    grid-template-columns: 300px 300px 300px;
+}
+
+#Header{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Primera{
+    font-size: 50px;
+    color: var(--blanco);
+}
+
+#Centro{
+    opacity: 0.80;
+    color: var(--blanco);
+}
+
+.BR{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    height: 2px;
+    width: 90%;
+    background-color: var(--blanco);
+    opacity: 0.80;
+}
+
+#Resultado{
+    position: relative;
+    color: var(--blanco);
+    top: 50px;
+    left: 50px;
+    opacity: 0.80;
+}
+
+.BR1{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    height: 2px;
+    width: 90%;
+    background-color: var(--blanco);
+    opacity: 0.80;
+}
+
+.Compra{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 500px;
+    background-color: #dfcece;
+}
+
+.img1{
+    position: relative;
+    top: 20px;
+    left: 8%;
+    z-index: 0;
+    width: 200px;
+}
+
+.span1{
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+    font-size: 30px;
+    background-color: var(--verde);
+}
+
+.Rebaja{
+    opacity: 0.50;
+}
+
+h2{
+    font-size: 30px;
+    position: relative;
+    /* bottom: 10px; */
+    left: 10%;
+}
+
+.Rebaja{
+    position: relative;
+    top: 10px;
+    left: 35%;
+}
+
+span1{
+    position: relative;
+    top: 10px;
+    left: 35%;
+}
+
+nav{
+    position: sticky;
+    top: 227px;
+}
+
+.Carrito{
+    background-color: var(--verde);
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+
+.B{
+    background-color: var(--verde);
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+.BR2{
+    position: relative;
+    top: 5px;
+    left: 30px;
+    height: 2px;
+    width: 90%;
+    background-color: var(--negro);
+    opacity: 0.40;
+}
+
+.Segunda{
+    position: relative;
+    left: 1000px;
+    bottom: 2150px;
+    height: 1100px;
+    width: 300px;
+}
+
+#Input{
+    height: 30px;
+    width: 200px;
+}
+
+.Input{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.Recent_post{
+    width: 300px;
+    height: 200px;
+    background-color: var(--blanco);
+}
+
+.Recent_comment{
+    width: 300px;
+    height: 200px;
+    background-color: var(--blanco);
+}
+
+.Archieve{
+    width: 300px;
+    height: 200px;
+    background-color: var(--blanco);
+}
+
+.Category{
+    width: 300px;
+    height: 200px;
+    background-color: var(--blanco);
+}
